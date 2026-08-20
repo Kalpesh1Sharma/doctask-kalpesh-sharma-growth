@@ -1,0 +1,258 @@
+[
+  {
+    "company": "Birlasoft",
+    "domain": "birlasoft.com",
+    "research_status": "success",
+    "fetch_method": "direct",
+    "pages_fetched": 5,
+    "source_urls": [
+      "https://www.birlasoft.com/",
+      "https://www.birlasoft.com/reports/leader-isg-provider-lens-manufacturing-industry-services-solutions",
+      "https://www.birlasoft.com/industries/manufacturing/solutions/intellibridge",
+      "https://www.birlasoft.com/services/cloud-infrastructure-technology",
+      "https://www.birlasoft.com/services/cloud-infrastructure-technology/anywhere-workplace"
+    ],
+    "page_titles": [
+      "Empowered by Innovation | Reimagining the Future with Birlasoft",
+      "Leader in ISG Provider Lens™ 2025 Manufacturing Industry Services & Solutions",
+      "IntelliBridge Integration Platform and Solutions",
+      "NextGen Cloud Infrastructure Services: Scalable IT Solutions",
+      "Anywhere Workplace Services: Secure Remote Operations"
+    ],
+    "signals": {
+      "enterprise_delivery": [
+        "enterprise",
+        "digital transformation",
+        "consulting",
+        "managed services",
+        "technology services"
+      ],
+      "engineering": [
+        "digital engineering"
+      ],
+      "cloud": [
+        "cloud transformation",
+        "cloud migration",
+        "cloud services",
+        "cloud modernization"
+      ],
+      "data_ai": [
+        "data analytics",
+        "artificial intelligence",
+        "generative ai"
+      ],
+      "regulated_industries": [
+        "banking",
+        "insurance",
+        "healthcare",
+        "life sciences"
+      ],
+      "proposal_complexity": []
+    },
+    "total_signals": 17
+  },
+  {
+    "company": "Happiest Minds",
+    "domain": "happiestminds.com",
+    "research_status": "success",
+    "fetch_method": "direct",
+    "pages_fetched": 5,
+    "source_urls": [
+      "https://www.happiestminds.com/",
+      "https://www.happiestminds.com/net-suite-cloud-erp-crm-consulting-services/",
+      "https://www.happiestminds.com/",
+      "https://www.happiestminds.com/cloud-and-data-center-advisory-and-transformation/",
+      "https://www.happiestminds.com/cloud-computing-services/"
+    ],
+    "page_titles": [
+      "Happiest Minds | AI First Customer-Centric Digital Engineering and Mindful IT Company",
+      "Net Suite Cloud ERP & CRM Consulting Services Archives - HappiestMinds",
+      "Happiest Minds | AI First Customer-Centric Digital Engineering and Mindful IT Company",
+      "Cloud and Data Center Advisory and Transformation Archives - HappiestMinds",
+      "Cloud Computing Archives - HappiestMinds"
+    ],
+    "signals": {
+      "enterprise_delivery": [
+        "enterprise",
+        "digital transformation",
+        "consulting"
+      ],
+      "engineering": [
+        "digital engineering",
+        "product engineering",
+        "application development"
+      ],
+      "cloud": [
+        "cloud transformation",
+        "cloud services"
+      ],
+      "data_ai": [
+        "artificial intelligence",
+        "generative ai",
+        "machine learning"
+      ],
+      "regulated_industries": [
+        "banking",
+        "financial services",
+        "insurance",
+        "healthcare",
+        "life sciences"
+      ],
+      "proposal_complexity": [
+        "contract"
+      ]
+    },
+    "total_signals": 17
+  },
+  {
+    "company": "Sonata Software",
+    "domain": "sonata-software.com",
+    "research_status": "success",
+    "fetch_method": "direct",
+    "pages_fetched": 5,
+    "source_urls": [
+      "https://www.sonata-software.com/",
+      "https://www.sonata-software.com/managed-services/managed-cloud-services",
+      "https://www.sonata-software.com/platformation-services/ai-data-modernization",
+      "https://www.sonata-software.com/platformation-services/emerging-technologies-generative-ai",
+      "https://www.sonata-software.com/platformation-services/microsoft-fabric"
+    ],
+    "page_titles": [
+      "Accelerating Business and Technology Modernization | Sonata Software",
+      "Comprehensive GCP and AWS Managed Cloud Services | Sonata Software",
+      "Data Modernization Services and Cloud Migration | Sonata Software",
+      "Empowering innovation for Your Business with Cutting-Edge Generative AI Solutions | Sonata Software",
+      "Microsoft Fabric Solutions for Seamless Digital Transformation | Sonata Software"
+    ],
+    "signals": {
+      "enterprise_delivery": [
+        "enterprise",
+        "digital transformation",
+        "consulting",
+        "managed services"
+      ],
+      "engineering": [
+        "digital engineering",
+        "product engineering",
+        "software engineering",
+        "application development",
+        "platform engineering"
+      ],
+      "cloud": [
+        "cloud transformation",
+        "cloud migration",
+        "cloud services",
+        "cloud modernization"
+      ],
+      "data_ai": [
+        "data analytics",
+        "artificial intelligence",
+        "generative ai",
+        "machine learning",
+        "data modernization"
+      ],
+      "regulated_industries": [
+        "banking",
+        "financial services",
+        "insurance",
+        "healthcare",
+        "life sciences"
+      ],
+      "proposal_complexity": [
+        "contract"
+      ]
+    },
+    "total_signals": 24
+  },
+  {
+    "company": "Zensar",
+    "domain": "zensar.com",
+    "research_status": "success",
+    "fetch_method": "reader_fallback",
+    "pages_fetched": 1,
+    "source_urls": [
+      "https://zensar.com"
+    ],
+    "page_titles": [],
+    "signals": {
+      "enterprise_delivery": [
+        "enterprise",
+        "digital transformation",
+        "managed services"
+      ],
+      "engineering": [
+        "platform engineering"
+      ],
+      "cloud": [
+        "cloud transformation"
+      ],
+      "data_ai": [
+        "data engineering",
+        "artificial intelligence"
+      ],
+      "regulated_industries": [
+        "banking",
+        "financial services",
+        "insurance",
+        "healthcare",
+        "life sciences",
+        "public sector"
+      ],
+      "proposal_complexity": []
+    },
+    "total_signals": 13
+  },
+  {
+    "company": "LTIMindtree",
+    "domain": "ltimindtree.com",
+    "research_status": "success",
+    "fetch_method": "direct",
+    "pages_fetched": 5,
+    "source_urls": [
+      "https://www.ltm.com/",
+      "https://www.ltm.com/industries/hi-tech-and-services",
+      "https://www.ltm.com/insights/case-studies/case-study-banking-2025",
+      "https://www.ltm.com/insights/case-studies/cognitive-infrastructure-solutions-for-a-major-oil-gas-company",
+      "https://www.ltm.com/services/data-analytics"
+    ],
+    "page_titles": [
+      "LTIMindtree is now LTM | It’s time to Outcreate",
+      "Hi-Tech IT Solutions & Consulting Services - LTM",
+      "Banking Digital Transformation Case Study | LTM",
+      "Cognitive Infrastructure Solutions for Oil & Gas Industry | LTM",
+      "Data and Analytics | LTM"
+    ],
+    "signals": {
+      "enterprise_delivery": [
+        "enterprise",
+        "digital transformation",
+        "consulting",
+        "managed services"
+      ],
+      "engineering": [
+        "product engineering",
+        "software engineering"
+      ],
+      "cloud": [
+        "cloud transformation",
+        "cloud migration",
+        "cloud services",
+        "cloud modernization"
+      ],
+      "data_ai": [
+        "data analytics",
+        "data engineering",
+        "generative ai"
+      ],
+      "regulated_industries": [
+        "banking",
+        "financial services",
+        "insurance",
+        "healthcare",
+        "life sciences"
+      ],
+      "proposal_complexity": []
+    },
+    "total_signals": 18
+  }
+]

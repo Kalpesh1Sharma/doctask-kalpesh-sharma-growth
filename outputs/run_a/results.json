@@ -1,0 +1,158 @@
+[
+  {
+    "company": "Persistent Systems",
+    "domain": "persistent.com",
+    "research_status": "success",
+    "fetch_method": "reader_fallback",
+    "pages_fetched": 1,
+    "total_signals": 15,
+    "signals": "enterprise_delivery: enterprise, digital transformation, consulting | engineering: digital engineering, product engineering, software engineering, application development, platform engineering | cloud: cloud transformation | data_ai: machine learning | regulated_industries: banking, financial services, insurance, healthcare, life sciences",
+    "source_urls": [
+      "https://persistent.com"
+    ],
+    "fit_score": 59,
+    "fit_tier": "medium",
+    "fit_reasons": [
+      "Enterprise delivery signals suggest complex client-facing sales and delivery workflows.",
+      "Engineering services indicate technical scope must often be explained and tailored for clients.",
+      "Work in regulated industries increases the need for careful, reviewable document workflows.",
+      "Transformation programs typically require customized scopes, timelines, capabilities and case-study material."
+    ],
+    "use_case_hypothesis": "AI-assisted enterprise proposal and RFP customization for technical projects in regulated industries, with human review before final use.",
+    "observed_signal": "public positioning around digital engineering, banking, enterprise",
+    "pain_hypothesis": "Complex technical bids for regulated clients likely require teams to repeatedly adapt scope, capabilities, case studies and delivery language while keeping the final document reviewable.",
+    "subject": "Proposal workflow idea for Persistent Systems",
+    "email": "Hi Persistent Systems team,\n\nI was looking at Persistent Systems' public site and noticed public positioning around digital engineering, banking, enterprise.\n\nThat stood out because teams selling complex enterprise work often have to reshape the same technical material for different opportunities. My hypothesis is: Complex technical bids for regulated clients likely require teams to repeatedly adapt scope, capabilities, case studies and delivery language while keeping the final document reviewable.\n\nSuperDocs is built around editing existing documents rather than generating disconnected text in a chat window. A possible workflow would be to start from an approved proposal template, adapt selected sections for a client or RFP, and keep a human reviewer in control before anything is finalized.\n\nI'd be curious whether proposal customization is a meaningful document workflow for your team.\n\nBest,\nGrowth Machine Demo",
+    "follow_up": "Following up on the proposal-workflow idea for Persistent Systems. The use case I had in mind is not replacing proposal owners; it is reducing repetitive section-level editing while keeping review and approval with the team.",
+    "human_review_required": true,
+    "send_status": "NOT_SENT"
+  },
+  {
+    "company": "Coforge",
+    "domain": "coforge.com",
+    "research_status": "success",
+    "fetch_method": "direct",
+    "pages_fetched": 5,
+    "total_signals": 18,
+    "signals": "enterprise_delivery: enterprise, digital transformation, consulting | engineering: product engineering, software engineering | cloud: cloud migration, cloud services, cloud native | data_ai: data engineering, generative ai, machine learning, data modernization | regulated_industries: banking, financial services, insurance, healthcare, life sciences, public sector",
+    "source_urls": [
+      "https://www.coforge.com/",
+      "https://www.coforge.com/capabilities/ai-led-business-process-solutions",
+      "https://www.coforge.com/capabilities/cloud",
+      "https://www.coforge.com/capabilities/data",
+      "https://www.coforge.com/industries/banking-and-financial-services"
+    ],
+    "fit_score": 64,
+    "fit_tier": "high",
+    "fit_reasons": [
+      "Enterprise delivery signals suggest complex client-facing sales and delivery workflows.",
+      "Engineering services indicate technical scope must often be explained and tailored for clients.",
+      "Work in regulated industries increases the need for careful, reviewable document workflows.",
+      "Transformation programs typically require customized scopes, timelines, capabilities and case-study material."
+    ],
+    "use_case_hypothesis": "AI-assisted enterprise proposal and RFP customization for technical projects in regulated industries, with human review before final use.",
+    "observed_signal": "public material around ai led business process solutions and cloud",
+    "pain_hypothesis": "Complex technical bids for regulated clients likely require teams to repeatedly adapt scope, capabilities, case studies and delivery language while keeping the final document reviewable.",
+    "subject": "Proposal workflow idea for Coforge",
+    "email": "Hi Coforge team,\n\nI was looking at Coforge's public site and noticed public material around ai led business process solutions and cloud.\n\nThat stood out because teams selling complex enterprise work often have to reshape the same technical material for different opportunities. My hypothesis is: Complex technical bids for regulated clients likely require teams to repeatedly adapt scope, capabilities, case studies and delivery language while keeping the final document reviewable.\n\nSuperDocs is built around editing existing documents rather than generating disconnected text in a chat window. A possible workflow would be to start from an approved proposal template, adapt selected sections for a client or RFP, and keep a human reviewer in control before anything is finalized.\n\nI'd be curious whether proposal customization is a meaningful document workflow for your team.\n\nBest,\nGrowth Machine Demo",
+    "follow_up": "Following up on the proposal-workflow idea for Coforge. The use case I had in mind is not replacing proposal owners; it is reducing repetitive section-level editing while keeping review and approval with the team.",
+    "human_review_required": true,
+    "send_status": "NOT_SENT"
+  },
+  {
+    "company": "Hexaware",
+    "domain": "hexaware.com",
+    "research_status": "success",
+    "fetch_method": "direct",
+    "pages_fetched": 5,
+    "total_signals": 16,
+    "signals": "enterprise_delivery: enterprise, digital transformation, consulting, managed services | data_ai: data engineering, artificial intelligence, generative ai, machine learning, data modernization | regulated_industries: banking, financial services, insurance, healthcare, life sciences, public sector | proposal_complexity: rfp",
+    "source_urls": [
+      "https://hexaware.com/",
+      "https://hexaware.com/case-study/25-cost-savings-for-end-to-end-managed-data-delivery-reporting-services/",
+      "https://hexaware.com/case-study/360-cx-optimization-with-the-adobe-experience-cloud-suite/",
+      "https://hexaware.com/case-study/4-week-amaze-accelerated-assessment-for-data-platform-modernization/",
+      "https://hexaware.com/case-study/intelligent-automation-enhances-the-capabilities-of-etmf/"
+    ],
+    "fit_score": 56,
+    "fit_tier": "medium",
+    "fit_reasons": [
+      "Enterprise delivery signals suggest complex client-facing sales and delivery workflows.",
+      "Work in regulated industries increases the need for careful, reviewable document workflows.",
+      "Direct proposal/RFP/SOW terminology strongly suggests repeated proposal-document work.",
+      "Transformation programs typically require customized scopes, timelines, capabilities and case-study material."
+    ],
+    "use_case_hypothesis": "Reusable enterprise proposal templates that can be adapted to different client requirements while preserving document structure.",
+    "observed_signal": "public material around 25 cost savings for end to end managed data delivery reporting services and 360 cx optimization with the adobe experience cloud suite",
+    "pain_hypothesis": "Enterprise sales documents likely require repeated client-specific editing while preserving a standard proposal structure.",
+    "subject": "Proposal workflow idea for Hexaware",
+    "email": "Hi Hexaware team,\n\nI was looking at Hexaware's public site and noticed public material around 25 cost savings for end to end managed data delivery reporting services and 360 cx optimization with the adobe experience cloud suite.\n\nThat stood out because teams selling complex enterprise work often have to reshape the same technical material for different opportunities. My hypothesis is: Enterprise sales documents likely require repeated client-specific editing while preserving a standard proposal structure.\n\nSuperDocs is built around editing existing documents rather than generating disconnected text in a chat window. A possible workflow would be to start from an approved proposal template, adapt selected sections for a client or RFP, and keep a human reviewer in control before anything is finalized.\n\nI'd be curious whether proposal customization is a meaningful document workflow for your team.\n\nBest,\nGrowth Machine Demo",
+    "follow_up": "Following up on the proposal-workflow idea for Hexaware. The use case I had in mind is not replacing proposal owners; it is reducing repetitive section-level editing while keeping review and approval with the team.",
+    "human_review_required": true,
+    "send_status": "NOT_SENT"
+  },
+  {
+    "company": "Nagarro",
+    "domain": "nagarro.com",
+    "research_status": "success",
+    "fetch_method": "direct",
+    "pages_fetched": 5,
+    "total_signals": 23,
+    "signals": "enterprise_delivery: enterprise, digital transformation, consulting, managed services | engineering: digital engineering, product engineering, software engineering, application development, platform engineering | cloud: cloud transformation, cloud migration, cloud services, cloud modernization | data_ai: data analytics, data engineering, artificial intelligence, machine learning | regulated_industries: banking, financial services, insurance, healthcare, life sciences, public sector",
+    "source_urls": [
+      "https://www.nagarro.com/en/",
+      "https://www.nagarro.com/en/industries/banking-and-financial-services-consulting",
+      "https://www.nagarro.com/en/industries/industry-and-automation",
+      "https://www.nagarro.com/en/services/cloud",
+      "https://www.nagarro.com/en/services/data-analytics-intelligence"
+    ],
+    "fit_score": 69,
+    "fit_tier": "high",
+    "fit_reasons": [
+      "Enterprise delivery signals suggest complex client-facing sales and delivery workflows.",
+      "Engineering services indicate technical scope must often be explained and tailored for clients.",
+      "Work in regulated industries increases the need for careful, reviewable document workflows.",
+      "Transformation programs typically require customized scopes, timelines, capabilities and case-study material."
+    ],
+    "use_case_hypothesis": "AI-assisted enterprise proposal and RFP customization for technical projects in regulated industries, with human review before final use.",
+    "observed_signal": "public material around banking and financial services consulting and industry and automation",
+    "pain_hypothesis": "Complex technical bids for regulated clients likely require teams to repeatedly adapt scope, capabilities, case studies and delivery language while keeping the final document reviewable.",
+    "subject": "Proposal workflow idea for Nagarro",
+    "email": "Hi Nagarro team,\n\nI was looking at Nagarro's public site and noticed public material around banking and financial services consulting and industry and automation.\n\nThat stood out because teams selling complex enterprise work often have to reshape the same technical material for different opportunities. My hypothesis is: Complex technical bids for regulated clients likely require teams to repeatedly adapt scope, capabilities, case studies and delivery language while keeping the final document reviewable.\n\nSuperDocs is built around editing existing documents rather than generating disconnected text in a chat window. A possible workflow would be to start from an approved proposal template, adapt selected sections for a client or RFP, and keep a human reviewer in control before anything is finalized.\n\nI'd be curious whether proposal customization is a meaningful document workflow for your team.\n\nBest,\nGrowth Machine Demo",
+    "follow_up": "Following up on the proposal-workflow idea for Nagarro. The use case I had in mind is not replacing proposal owners; it is reducing repetitive section-level editing while keeping review and approval with the team.",
+    "human_review_required": true,
+    "send_status": "NOT_SENT"
+  },
+  {
+    "company": "Mphasis",
+    "domain": "mphasis.com",
+    "research_status": "success",
+    "fetch_method": "direct",
+    "pages_fetched": 5,
+    "total_signals": 14,
+    "signals": "enterprise_delivery: enterprise, digital transformation, consulting, technology services | engineering: product engineering | data_ai: data analytics, artificial intelligence, generative ai, machine learning | regulated_industries: banking, insurance, healthcare, life sciences, public sector",
+    "source_urls": [
+      "https://www.mphasis.com/home.html",
+      "https://www.mphasis.com/home/industries/banking-capitalmarkets/mortgage-solutions.html",
+      "https://www.mphasis.com/home/industries/hi-tech/hi-tech/product-engineering-services.html",
+      "https://www.mphasis.com/home/industries/hospitality.html",
+      "https://www.mphasis.com/home/industries/insurance/services.html"
+    ],
+    "fit_score": 51,
+    "fit_tier": "medium",
+    "fit_reasons": [
+      "Enterprise delivery signals suggest complex client-facing sales and delivery workflows.",
+      "Engineering services indicate technical scope must often be explained and tailored for clients.",
+      "Work in regulated industries increases the need for careful, reviewable document workflows.",
+      "Transformation programs typically require customized scopes, timelines, capabilities and case-study material."
+    ],
+    "use_case_hypothesis": "AI-assisted enterprise proposal and RFP customization for technical projects in regulated industries, with human review before final use.",
+    "observed_signal": "public material around mortgage solutions and product engineering services",
+    "pain_hypothesis": "Complex technical bids for regulated clients likely require teams to repeatedly adapt scope, capabilities, case studies and delivery language while keeping the final document reviewable.",
+    "subject": "Proposal workflow idea for Mphasis",
+    "email": "Hi Mphasis team,\n\nI was looking at Mphasis' public site and noticed public material around mortgage solutions and product engineering services.\n\nThat stood out because teams selling complex enterprise work often have to reshape the same technical material for different opportunities. My hypothesis is: Complex technical bids for regulated clients likely require teams to repeatedly adapt scope, capabilities, case studies and delivery language while keeping the final document reviewable.\n\nSuperDocs is built around editing existing documents rather than generating disconnected text in a chat window. A possible workflow would be to start from an approved proposal template, adapt selected sections for a client or RFP, and keep a human reviewer in control before anything is finalized.\n\nI'd be curious whether proposal customization is a meaningful document workflow for your team.\n\nBest,\nGrowth Machine Demo",
+    "follow_up": "Following up on the proposal-workflow idea for Mphasis. The use case I had in mind is not replacing proposal owners; it is reducing repetitive section-level editing while keeping review and approval with the team.",
+    "human_review_required": true,
+    "send_status": "NOT_SENT"
+  }
+]

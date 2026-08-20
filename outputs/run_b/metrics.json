@@ -1,0 +1,17 @@
+{
+  "prospects_input": 5,
+  "research_success": 5,
+  "research_low_signal": 0,
+  "research_failed": 0,
+  "direct_fetches": 4,
+  "reader_fallbacks": 1,
+  "high_fit": 3,
+  "medium_fit": 2,
+  "low_fit": 0,
+  "unqualified": 0,
+  "average_fit_score": 66.0,
+  "messages_generated": 5,
+  "messages_sent": 0,
+  "human_review_required": 5,
+  "duration_seconds": 26.66
+}

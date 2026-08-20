@@ -1,0 +1,251 @@
+[
+  {
+    "company": "Persistent Systems",
+    "domain": "persistent.com",
+    "research_status": "success",
+    "fetch_method": "reader_fallback",
+    "pages_fetched": 1,
+    "source_urls": [
+      "https://persistent.com"
+    ],
+    "page_titles": [],
+    "signals": {
+      "enterprise_delivery": [
+        "enterprise",
+        "digital transformation",
+        "consulting"
+      ],
+      "engineering": [
+        "digital engineering",
+        "product engineering",
+        "software engineering",
+        "application development",
+        "platform engineering"
+      ],
+      "cloud": [
+        "cloud transformation"
+      ],
+      "data_ai": [
+        "machine learning"
+      ],
+      "regulated_industries": [
+        "banking",
+        "financial services",
+        "insurance",
+        "healthcare",
+        "life sciences"
+      ],
+      "proposal_complexity": []
+    },
+    "total_signals": 15
+  },
+  {
+    "company": "Coforge",
+    "domain": "coforge.com",
+    "research_status": "success",
+    "fetch_method": "direct",
+    "pages_fetched": 5,
+    "source_urls": [
+      "https://www.coforge.com/",
+      "https://www.coforge.com/capabilities/ai-led-business-process-solutions",
+      "https://www.coforge.com/capabilities/cloud",
+      "https://www.coforge.com/capabilities/data",
+      "https://www.coforge.com/industries/banking-and-financial-services"
+    ],
+    "page_titles": [
+      "Coforge | Where AI Engineering Meets Industry Expertise",
+      "AI‑Led Business Process Solutions & Intelligent Operations | Coforge",
+      "AI‑enabled Cloud Services & Operations | Coforge",
+      "Enterprise Data & Analytics Services | Coforge",
+      "AI-Driven Banking and Financial Services Transformation | Coforge"
+    ],
+    "signals": {
+      "enterprise_delivery": [
+        "enterprise",
+        "digital transformation",
+        "consulting"
+      ],
+      "engineering": [
+        "product engineering",
+        "software engineering"
+      ],
+      "cloud": [
+        "cloud migration",
+        "cloud services",
+        "cloud native"
+      ],
+      "data_ai": [
+        "data engineering",
+        "generative ai",
+        "machine learning",
+        "data modernization"
+      ],
+      "regulated_industries": [
+        "banking",
+        "financial services",
+        "insurance",
+        "healthcare",
+        "life sciences",
+        "public sector"
+      ],
+      "proposal_complexity": []
+    },
+    "total_signals": 18
+  },
+  {
+    "company": "Hexaware",
+    "domain": "hexaware.com",
+    "research_status": "success",
+    "fetch_method": "direct",
+    "pages_fetched": 5,
+    "source_urls": [
+      "https://hexaware.com/",
+      "https://hexaware.com/case-study/25-cost-savings-for-end-to-end-managed-data-delivery-reporting-services/",
+      "https://hexaware.com/case-study/360-cx-optimization-with-the-adobe-experience-cloud-suite/",
+      "https://hexaware.com/case-study/4-week-amaze-accelerated-assessment-for-data-platform-modernization/",
+      "https://hexaware.com/case-study/intelligent-automation-enhances-the-capabilities-of-etmf/"
+    ],
+    "page_titles": [
+      "Hexaware: IT Services for AI & Digital Transformation",
+      "Cost Savings in Managed Data Delivery and Reporting",
+      "CX Optimization with the Adobe Experience Cloud Product Suite",
+      "4-Week Amaze® Assessment for Data Platform Modernization",
+      "Healthcare and Life Sciences Company Enhances eTMF with Automation"
+    ],
+    "signals": {
+      "enterprise_delivery": [
+        "enterprise",
+        "digital transformation",
+        "consulting",
+        "managed services"
+      ],
+      "engineering": [],
+      "cloud": [],
+      "data_ai": [
+        "data engineering",
+        "artificial intelligence",
+        "generative ai",
+        "machine learning",
+        "data modernization"
+      ],
+      "regulated_industries": [
+        "banking",
+        "financial services",
+        "insurance",
+        "healthcare",
+        "life sciences",
+        "public sector"
+      ],
+      "proposal_complexity": [
+        "rfp"
+      ]
+    },
+    "total_signals": 16
+  },
+  {
+    "company": "Nagarro",
+    "domain": "nagarro.com",
+    "research_status": "success",
+    "fetch_method": "direct",
+    "pages_fetched": 5,
+    "source_urls": [
+      "https://www.nagarro.com/en/",
+      "https://www.nagarro.com/en/industries/banking-and-financial-services-consulting",
+      "https://www.nagarro.com/en/industries/industry-and-automation",
+      "https://www.nagarro.com/en/services/cloud",
+      "https://www.nagarro.com/en/services/data-analytics-intelligence"
+    ],
+    "page_titles": [
+      "Engineering Intelligence for Enterprise AI | Nagarro",
+      "Banking and Financial Services Consulting | Nagarro",
+      "Industry & Automation | Shifting towards Connected Enterprise with Industry 4.0",
+      "Cloud services: Consult, strategize, transform, modernize | Nagarro",
+      "Artificial Intelligence (AI), Data, & Analytics Services | Nagarro"
+    ],
+    "signals": {
+      "enterprise_delivery": [
+        "enterprise",
+        "digital transformation",
+        "consulting",
+        "managed services"
+      ],
+      "engineering": [
+        "digital engineering",
+        "product engineering",
+        "software engineering",
+        "application development",
+        "platform engineering"
+      ],
+      "cloud": [
+        "cloud transformation",
+        "cloud migration",
+        "cloud services",
+        "cloud modernization"
+      ],
+      "data_ai": [
+        "data analytics",
+        "data engineering",
+        "artificial intelligence",
+        "machine learning"
+      ],
+      "regulated_industries": [
+        "banking",
+        "financial services",
+        "insurance",
+        "healthcare",
+        "life sciences",
+        "public sector"
+      ],
+      "proposal_complexity": []
+    },
+    "total_signals": 23
+  },
+  {
+    "company": "Mphasis",
+    "domain": "mphasis.com",
+    "research_status": "success",
+    "fetch_method": "direct",
+    "pages_fetched": 5,
+    "source_urls": [
+      "https://www.mphasis.com/home.html",
+      "https://www.mphasis.com/home/industries/banking-capitalmarkets/mortgage-solutions.html",
+      "https://www.mphasis.com/home/industries/hi-tech/hi-tech/product-engineering-services.html",
+      "https://www.mphasis.com/home/industries/hospitality.html",
+      "https://www.mphasis.com/home/industries/insurance/services.html"
+    ],
+    "page_titles": [
+      "Mphasis: IT Consulting & Applied Technology Services | Tech Solutions",
+      "Mortgage Technology | Digital Mortgage Solutions – Mphasis",
+      "Product Engineering Services | Digital Innovation – Mphasis",
+      "Hospitality Solutions for Data-Driven Guest Experience | Mphasis",
+      "Insurance Technology Solutions | Policy Admin System – Mphasis"
+    ],
+    "signals": {
+      "enterprise_delivery": [
+        "enterprise",
+        "digital transformation",
+        "consulting",
+        "technology services"
+      ],
+      "engineering": [
+        "product engineering"
+      ],
+      "cloud": [],
+      "data_ai": [
+        "data analytics",
+        "artificial intelligence",
+        "generative ai",
+        "machine learning"
+      ],
+      "regulated_industries": [
+        "banking",
+        "insurance",
+        "healthcare",
+        "life sciences",
+        "public sector"
+      ],
+      "proposal_complexity": []
+    },
+    "total_signals": 14
+  }
+]

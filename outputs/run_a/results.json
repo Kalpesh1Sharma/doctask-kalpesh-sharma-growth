@@ -19,11 +19,19 @@
       "Transformation programs typically require customized scopes, timelines, capabilities and case-study material."
     ],
     "use_case_hypothesis": "AI-assisted enterprise proposal and RFP customization for technical projects in regulated industries, with human review before final use.",
-    "observed_signal": "public positioning around digital engineering, banking, enterprise",
-    "pain_hypothesis": "Complex technical bids for regulated clients likely require teams to repeatedly adapt scope, capabilities, case studies and delivery language while keeping the final document reviewable.",
+    "observed_signal": "public positioning across digital engineering, banking, cloud transformation",
+    "pain_hypothesis": "For complex regulated-industry engagements, proposal teams may need to adapt technical scope, proof points, delivery language, and reusable case-study material for each opportunity.",
+    "personalization_evidence": [],
+    "personalization_score": 0,
+    "personalization_quality": "needs_review",
+    "personalization_reasons": [
+      "No specific page-level evidence was available.",
+      "Reader fallback reduced page-level specificity."
+    ],
+    "draft_status": "MANUAL_RESEARCH_REQUIRED",
     "subject": "Proposal workflow idea for Persistent Systems",
-    "email": "Hi Persistent Systems team,\n\nI was looking at Persistent Systems' public site and noticed public positioning around digital engineering, banking, enterprise.\n\nThat stood out because teams selling complex enterprise work often have to reshape the same technical material for different opportunities. My hypothesis is: Complex technical bids for regulated clients likely require teams to repeatedly adapt scope, capabilities, case studies and delivery language while keeping the final document reviewable.\n\nSuperDocs is built around editing existing documents rather than generating disconnected text in a chat window. A possible workflow would be to start from an approved proposal template, adapt selected sections for a client or RFP, and keep a human reviewer in control before anything is finalized.\n\nI'd be curious whether proposal customization is a meaningful document workflow for your team.\n\nBest,\nGrowth Machine Demo",
-    "follow_up": "Following up on the proposal-workflow idea for Persistent Systems. The use case I had in mind is not replacing proposal owners; it is reducing repetitive section-level editing while keeping review and approval with the team.",
+    "email": "Hi Persistent Systems team,\n\nI was looking through Persistent Systems' public site and noticed public positioning across digital engineering, banking, cloud transformation.\n\nThat made me curious about the document work behind those opportunities. For complex regulated-industry engagements, proposal teams may need to adapt technical scope, proof points, delivery language, and reusable case-study material for each opportunity.\n\nOne SuperDocs workflow I would test is starting from an approved proposal or RFP document, updating only the relevant sections for the opportunity, and leaving the result in the document for human review rather than producing disconnected copy in a chat window.\n\nI would want to validate whether that is actually a painful part of your workflow before assuming the fit.\n\nBest,\nGrowth Machine Demo",
+    "follow_up": "Following up on the document-workflow idea for Persistent Systems. The hypothesis I would want to validate is simple: For complex regulated-industry engagements, proposal teams may need to adapt technical scope, proof points, delivery language, and reusable case-study material for each opportunity. The goal would be to reduce repetitive editing without removing proposal-owner review.",
     "human_review_required": true,
     "send_status": "NOT_SENT"
   },
@@ -51,11 +59,28 @@
       "Transformation programs typically require customized scopes, timelines, capabilities and case-study material."
     ],
     "use_case_hypothesis": "AI-assisted enterprise proposal and RFP customization for technical projects in regulated industries, with human review before final use.",
-    "observed_signal": "public material around ai led business process solutions and cloud",
-    "pain_hypothesis": "Complex technical bids for regulated clients likely require teams to repeatedly adapt scope, capabilities, case studies and delivery language while keeping the final document reviewable.",
-    "subject": "Proposal workflow idea for Coforge",
-    "email": "Hi Coforge team,\n\nI was looking at Coforge's public site and noticed public material around ai led business process solutions and cloud.\n\nThat stood out because teams selling complex enterprise work often have to reshape the same technical material for different opportunities. My hypothesis is: Complex technical bids for regulated clients likely require teams to repeatedly adapt scope, capabilities, case studies and delivery language while keeping the final document reviewable.\n\nSuperDocs is built around editing existing documents rather than generating disconnected text in a chat window. A possible workflow would be to start from an approved proposal template, adapt selected sections for a client or RFP, and keep a human reviewer in control before anything is finalized.\n\nI'd be curious whether proposal customization is a meaningful document workflow for your team.\n\nBest,\nGrowth Machine Demo",
-    "follow_up": "Following up on the proposal-workflow idea for Coforge. The use case I had in mind is not replacing proposal owners; it is reducing repetitive section-level editing while keeping review and approval with the team.",
+    "observed_signal": "a public page focused on \"AI-Driven Banking and Financial Services Transformation\"",
+    "pain_hypothesis": "For complex financial-services engagements, proposal teams may need to adapt technical scope, proof points, delivery language, and reusable case-study material for each opportunity.",
+    "personalization_evidence": [
+      {
+        "title": "AI-Driven Banking and Financial Services Transformation",
+        "url": "https://www.coforge.com/industries/banking-and-financial-services",
+        "page_type": "industry",
+        "theme": "financial_services",
+        "score": 9
+      }
+    ],
+    "personalization_score": 70,
+    "personalization_quality": "usable",
+    "personalization_reasons": [
+      "Uses specific company-page evidence.",
+      "Primary evidence is a specific service, solution, or industry page.",
+      "Evidence came from direct page-level research."
+    ],
+    "draft_status": "DRAFT_READY_WITH_REVIEW",
+    "subject": "Document workflow idea for Coforge",
+    "email": "Hi Coforge team,\n\nI was looking through Coforge's public site and noticed a public page focused on \"AI-Driven Banking and Financial Services Transformation\".\n\nThat made me curious about the document work behind those opportunities. For complex financial-services engagements, proposal teams may need to adapt technical scope, proof points, delivery language, and reusable case-study material for each opportunity.\n\nOne SuperDocs workflow I would test is starting from an approved proposal or RFP document, updating only the relevant sections for the opportunity, and leaving the result in the document for human review rather than producing disconnected copy in a chat window.\n\nI would want to validate whether that is actually a painful part of your workflow before assuming the fit.\n\nBest,\nGrowth Machine Demo",
+    "follow_up": "Following up on the document-workflow idea for Coforge. The hypothesis I would want to validate is simple: For complex financial-services engagements, proposal teams may need to adapt technical scope, proof points, delivery language, and reusable case-study material for each opportunity. The goal would be to reduce repetitive editing without removing proposal-owner review.",
     "human_review_required": true,
     "send_status": "NOT_SENT"
   },
@@ -83,11 +108,36 @@
       "Transformation programs typically require customized scopes, timelines, capabilities and case-study material."
     ],
     "use_case_hypothesis": "Reusable enterprise proposal templates that can be adapted to different client requirements while preserving document structure.",
-    "observed_signal": "public material around 25 cost savings for end to end managed data delivery reporting services and 360 cx optimization with the adobe experience cloud suite",
-    "pain_hypothesis": "Enterprise sales documents likely require repeated client-specific editing while preserving a standard proposal structure.",
-    "subject": "Proposal workflow idea for Hexaware",
-    "email": "Hi Hexaware team,\n\nI was looking at Hexaware's public site and noticed public material around 25 cost savings for end to end managed data delivery reporting services and 360 cx optimization with the adobe experience cloud suite.\n\nThat stood out because teams selling complex enterprise work often have to reshape the same technical material for different opportunities. My hypothesis is: Enterprise sales documents likely require repeated client-specific editing while preserving a standard proposal structure.\n\nSuperDocs is built around editing existing documents rather than generating disconnected text in a chat window. A possible workflow would be to start from an approved proposal template, adapt selected sections for a client or RFP, and keep a human reviewer in control before anything is finalized.\n\nI'd be curious whether proposal customization is a meaningful document workflow for your team.\n\nBest,\nGrowth Machine Demo",
-    "follow_up": "Following up on the proposal-workflow idea for Hexaware. The use case I had in mind is not replacing proposal owners; it is reducing repetitive section-level editing while keeping review and approval with the team.",
+    "observed_signal": "public material on \"4-Week Amaze® Assessment for Data Platform Modernization\" and \"Cost Savings in Managed Data Delivery and Reporting\"",
+    "pain_hypothesis": "For cloud, data, and modernization engagements, client-facing teams may repeatedly adapt approved material while trying to preserve a consistent document structure.",
+    "personalization_evidence": [
+      {
+        "title": "4-Week Amaze® Assessment for Data Platform Modernization",
+        "url": "https://hexaware.com/case-study/4-week-amaze-accelerated-assessment-for-data-platform-modernization/",
+        "page_type": "case_study",
+        "theme": "modernization",
+        "score": 9
+      },
+      {
+        "title": "Cost Savings in Managed Data Delivery and Reporting",
+        "url": "https://hexaware.com/case-study/25-cost-savings-for-end-to-end-managed-data-delivery-reporting-services/",
+        "page_type": "case_study",
+        "theme": "modernization",
+        "score": 7
+      }
+    ],
+    "personalization_score": 100,
+    "personalization_quality": "strong",
+    "personalization_reasons": [
+      "Uses specific company-page evidence.",
+      "Uses multiple coherent evidence points.",
+      "Primary evidence is a concrete case study.",
+      "Evidence came from direct page-level research."
+    ],
+    "draft_status": "DRAFT_READY",
+    "subject": "A proposal workflow idea for Hexaware",
+    "email": "Hi Hexaware team,\n\nI was looking through Hexaware's public site and noticed public material on \"4-Week Amaze® Assessment for Data Platform Modernization\" and \"Cost Savings in Managed Data Delivery and Reporting\".\n\nThat made me curious about the document work behind those opportunities. For cloud, data, and modernization engagements, client-facing teams may repeatedly adapt approved material while trying to preserve a consistent document structure.\n\nOne SuperDocs workflow I would test is starting from an approved proposal or RFP document, updating only the relevant sections for the opportunity, and leaving the result in the document for human review rather than producing disconnected copy in a chat window.\n\nI would want to validate whether that is actually a painful part of your workflow before assuming the fit.\n\nBest,\nGrowth Machine Demo",
+    "follow_up": "Following up on the document-workflow idea for Hexaware. The hypothesis I would want to validate is simple: For cloud, data, and modernization engagements, client-facing teams may repeatedly adapt approved material while trying to preserve a consistent document structure. The goal would be to reduce repetitive editing without removing proposal-owner review.",
     "human_review_required": true,
     "send_status": "NOT_SENT"
   },
@@ -115,11 +165,28 @@
       "Transformation programs typically require customized scopes, timelines, capabilities and case-study material."
     ],
     "use_case_hypothesis": "AI-assisted enterprise proposal and RFP customization for technical projects in regulated industries, with human review before final use.",
-    "observed_signal": "public material around banking and financial services consulting and industry and automation",
-    "pain_hypothesis": "Complex technical bids for regulated clients likely require teams to repeatedly adapt scope, capabilities, case studies and delivery language while keeping the final document reviewable.",
-    "subject": "Proposal workflow idea for Nagarro",
-    "email": "Hi Nagarro team,\n\nI was looking at Nagarro's public site and noticed public material around banking and financial services consulting and industry and automation.\n\nThat stood out because teams selling complex enterprise work often have to reshape the same technical material for different opportunities. My hypothesis is: Complex technical bids for regulated clients likely require teams to repeatedly adapt scope, capabilities, case studies and delivery language while keeping the final document reviewable.\n\nSuperDocs is built around editing existing documents rather than generating disconnected text in a chat window. A possible workflow would be to start from an approved proposal template, adapt selected sections for a client or RFP, and keep a human reviewer in control before anything is finalized.\n\nI'd be curious whether proposal customization is a meaningful document workflow for your team.\n\nBest,\nGrowth Machine Demo",
-    "follow_up": "Following up on the proposal-workflow idea for Nagarro. The use case I had in mind is not replacing proposal owners; it is reducing repetitive section-level editing while keeping review and approval with the team.",
+    "observed_signal": "a public page focused on \"Banking and Financial Services Consulting\"",
+    "pain_hypothesis": "For complex financial-services engagements, proposal teams may need to adapt technical scope, proof points, delivery language, and reusable case-study material for each opportunity.",
+    "personalization_evidence": [
+      {
+        "title": "Banking and Financial Services Consulting",
+        "url": "https://www.nagarro.com/en/industries/banking-and-financial-services-consulting",
+        "page_type": "industry",
+        "theme": "financial_services",
+        "score": 7
+      }
+    ],
+    "personalization_score": 70,
+    "personalization_quality": "usable",
+    "personalization_reasons": [
+      "Uses specific company-page evidence.",
+      "Primary evidence is a specific service, solution, or industry page.",
+      "Evidence came from direct page-level research."
+    ],
+    "draft_status": "DRAFT_READY_WITH_REVIEW",
+    "subject": "Document workflow idea for Nagarro",
+    "email": "Hi Nagarro team,\n\nI was looking through Nagarro's public site and noticed a public page focused on \"Banking and Financial Services Consulting\".\n\nThat made me curious about the document work behind those opportunities. For complex financial-services engagements, proposal teams may need to adapt technical scope, proof points, delivery language, and reusable case-study material for each opportunity.\n\nOne SuperDocs workflow I would test is starting from an approved proposal or RFP document, updating only the relevant sections for the opportunity, and leaving the result in the document for human review rather than producing disconnected copy in a chat window.\n\nI would want to validate whether that is actually a painful part of your workflow before assuming the fit.\n\nBest,\nGrowth Machine Demo",
+    "follow_up": "Following up on the document-workflow idea for Nagarro. The hypothesis I would want to validate is simple: For complex financial-services engagements, proposal teams may need to adapt technical scope, proof points, delivery language, and reusable case-study material for each opportunity. The goal would be to reduce repetitive editing without removing proposal-owner review.",
     "human_review_required": true,
     "send_status": "NOT_SENT"
   },
@@ -147,11 +214,36 @@
       "Transformation programs typically require customized scopes, timelines, capabilities and case-study material."
     ],
     "use_case_hypothesis": "AI-assisted enterprise proposal and RFP customization for technical projects in regulated industries, with human review before final use.",
-    "observed_signal": "public material around mortgage solutions and product engineering services",
-    "pain_hypothesis": "Complex technical bids for regulated clients likely require teams to repeatedly adapt scope, capabilities, case studies and delivery language while keeping the final document reviewable.",
-    "subject": "Proposal workflow idea for Mphasis",
-    "email": "Hi Mphasis team,\n\nI was looking at Mphasis' public site and noticed public material around mortgage solutions and product engineering services.\n\nThat stood out because teams selling complex enterprise work often have to reshape the same technical material for different opportunities. My hypothesis is: Complex technical bids for regulated clients likely require teams to repeatedly adapt scope, capabilities, case studies and delivery language while keeping the final document reviewable.\n\nSuperDocs is built around editing existing documents rather than generating disconnected text in a chat window. A possible workflow would be to start from an approved proposal template, adapt selected sections for a client or RFP, and keep a human reviewer in control before anything is finalized.\n\nI'd be curious whether proposal customization is a meaningful document workflow for your team.\n\nBest,\nGrowth Machine Demo",
-    "follow_up": "Following up on the proposal-workflow idea for Mphasis. The use case I had in mind is not replacing proposal owners; it is reducing repetitive section-level editing while keeping review and approval with the team.",
+    "observed_signal": "public material on \"Mortgage Technology\" and \"Insurance Technology Solutions\"",
+    "pain_hypothesis": "For complex financial-services engagements, proposal teams may need to adapt technical scope, proof points, delivery language, and reusable case-study material for each opportunity.",
+    "personalization_evidence": [
+      {
+        "title": "Mortgage Technology",
+        "url": "https://www.mphasis.com/home/industries/banking-capitalmarkets/mortgage-solutions.html",
+        "page_type": "industry",
+        "theme": "financial_services",
+        "score": 6
+      },
+      {
+        "title": "Insurance Technology Solutions",
+        "url": "https://www.mphasis.com/home/industries/insurance/services.html",
+        "page_type": "industry",
+        "theme": "financial_services",
+        "score": 6
+      }
+    ],
+    "personalization_score": 95,
+    "personalization_quality": "strong",
+    "personalization_reasons": [
+      "Uses specific company-page evidence.",
+      "Uses multiple coherent evidence points.",
+      "Primary evidence is a specific service, solution, or industry page.",
+      "Evidence came from direct page-level research."
+    ],
+    "draft_status": "DRAFT_READY",
+    "subject": "Document workflow idea for Mphasis",
+    "email": "Hi Mphasis team,\n\nI was looking through Mphasis' public site and noticed public material on \"Mortgage Technology\" and \"Insurance Technology Solutions\".\n\nThat made me curious about the document work behind those opportunities. For complex financial-services engagements, proposal teams may need to adapt technical scope, proof points, delivery language, and reusable case-study material for each opportunity.\n\nOne SuperDocs workflow I would test is starting from an approved proposal or RFP document, updating only the relevant sections for the opportunity, and leaving the result in the document for human review rather than producing disconnected copy in a chat window.\n\nI would want to validate whether that is actually a painful part of your workflow before assuming the fit.\n\nBest,\nGrowth Machine Demo",
+    "follow_up": "Following up on the document-workflow idea for Mphasis. The hypothesis I would want to validate is simple: For complex financial-services engagements, proposal teams may need to adapt technical scope, proof points, delivery language, and reusable case-study material for each opportunity. The goal would be to reduce repetitive editing without removing proposal-owner review.",
     "human_review_required": true,
     "send_status": "NOT_SENT"
   }

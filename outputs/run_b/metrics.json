@@ -9,9 +9,16 @@
   "medium_fit": 2,
   "low_fit": 0,
   "unqualified": 0,
-  "average_fit_score": 66.0,
+  "average_fit_score": 67.0,
+  "personalization_strong": 3,
+  "personalization_usable": 1,
+  "personalization_needs_review": 1,
+  "average_personalization_evidence_score": 72.0,
+  "draft_ready": 3,
+  "draft_ready_with_review": 1,
+  "manual_research_required": 1,
   "messages_generated": 5,
   "messages_sent": 0,
   "human_review_required": 5,
-  "duration_seconds": 26.66
+  "duration_seconds": 26.01
 }

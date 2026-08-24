@@ -10,8 +10,15 @@
   "low_fit": 0,
   "unqualified": 0,
   "average_fit_score": 59.8,
+  "personalization_strong": 2,
+  "personalization_usable": 2,
+  "personalization_needs_review": 1,
+  "average_personalization_evidence_score": 67.0,
+  "draft_ready": 2,
+  "draft_ready_with_review": 2,
+  "manual_research_required": 1,
   "messages_generated": 5,
   "messages_sent": 0,
   "human_review_required": 5,
-  "duration_seconds": 26.6
+  "duration_seconds": 38.44
 }

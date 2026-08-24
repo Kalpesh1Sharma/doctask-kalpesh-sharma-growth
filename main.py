@@ -50,12 +50,29 @@ def flatten_signals(signals: dict) -> str:
     return " | ".join(parts)
 
 
+def flatten_evidence(evidence: list[dict]) -> str:
+    parts = []
+
+    for item in evidence:
+        title = item.get("title", "")
+        url = item.get("url", "")
+        page_type = item.get("page_type", "")
+        theme = item.get("theme", "")
+
+        parts.append(
+            f"{title} [{page_type}/{theme}] {url}"
+        )
+
+    return " | ".join(parts)
+
+
 def build_campaign_markdown(results: list[dict]) -> str:
     lines = [
         "# Generated Outreach Review",
         "",
         "> Demonstration output only. Nothing in this file was sent.",
         "> Every generated message requires human review.",
+        "> Personalization scores are internal evidence-quality heuristics, not accuracy or conversion claims.",
         "",
     ]
 
@@ -68,6 +85,43 @@ def build_campaign_markdown(results: list[dict]) -> str:
                 f"**Fit tier:** {item['fit_tier']}",
                 f"**Research status:** {item['research_status']}",
                 f"**Fetch method:** {item['fetch_method']}",
+                f"**Personalization evidence quality:** {item['personalization_quality']}",
+                f"**Internal evidence-quality score:** {item['personalization_score']}",
+                f"**Draft status:** {item['draft_status']}",
+                "",
+                "### Why the personalization received this quality rating",
+                "",
+            ]
+        )
+
+        for reason in item["personalization_reasons"]:
+            lines.append(f"- {reason}")
+
+        lines.extend(
+            [
+                "",
+                "### Personalization evidence",
+                "",
+            ]
+        )
+
+        if item["personalization_evidence"]:
+            for evidence in item["personalization_evidence"]:
+                lines.extend(
+                    [
+                        f"- **{evidence['title']}**",
+                        f"  - Type: `{evidence['page_type']}`",
+                        f"  - Theme: `{evidence['theme']}`",
+                        f"  - Source: {evidence['url']}",
+                    ]
+                )
+        else:
+            lines.append(
+                "- No specific page-level evidence available; broader company-level signals were used."
+            )
+
+        lines.extend(
+            [
                 "",
                 "### Observed public signal",
                 "",
@@ -95,9 +149,13 @@ def build_campaign_markdown(results: list[dict]) -> str:
                 "",
                 item["follow_up"],
                 "",
-                "### Evidence",
+                "### Research sources",
                 "",
-                f"Sources: {', '.join(item['source_urls']) or 'No usable source'}",
+                (
+                    ", ".join(item["source_urls"])
+                    if item["source_urls"]
+                    else "No usable source"
+                ),
                 "",
                 "**SEND STATUS: NOT_SENT**",
                 "",
@@ -109,7 +167,10 @@ def build_campaign_markdown(results: list[dict]) -> str:
     return "\n".join(lines)
 
 
-def build_metrics(results: list[dict], duration_seconds: float) -> dict:
+def build_metrics(
+    results: list[dict],
+    duration_seconds: float,
+) -> dict:
     total = len(results)
 
     research_success = sum(
@@ -157,9 +218,54 @@ def build_metrics(results: list[dict], duration_seconds: float) -> dict:
         for item in results
     )
 
+    personalization_strong = sum(
+        item["personalization_quality"] == "strong"
+        for item in results
+    )
+
+    personalization_usable = sum(
+        item["personalization_quality"] == "usable"
+        for item in results
+    )
+
+    personalization_needs_review = sum(
+        item["personalization_quality"] == "needs_review"
+        for item in results
+    )
+
+    draft_ready = sum(
+        item["draft_status"] == "DRAFT_READY"
+        for item in results
+    )
+
+    draft_ready_with_review = sum(
+        item["draft_status"] == "DRAFT_READY_WITH_REVIEW"
+        for item in results
+    )
+
+    manual_research_required = sum(
+        item["draft_status"] == "MANUAL_RESEARCH_REQUIRED"
+        for item in results
+    )
+
     average_fit_score = (
         round(
-            sum(item["fit_score"] for item in results) / total,
+            sum(
+                item["fit_score"]
+                for item in results
+            ) / total,
+            1,
+        )
+        if total
+        else 0
+    )
+
+    average_personalization_score = (
+        round(
+            sum(
+                item["personalization_score"]
+                for item in results
+            ) / total,
             1,
         )
         if total
@@ -168,20 +274,41 @@ def build_metrics(results: list[dict], duration_seconds: float) -> dict:
 
     return {
         "prospects_input": total,
+
         "research_success": research_success,
         "research_low_signal": low_signal,
         "research_failed": failed,
+
         "direct_fetches": direct,
         "reader_fallbacks": fallback,
+
         "high_fit": high,
         "medium_fit": medium,
         "low_fit": low,
         "unqualified": unqualified,
+
         "average_fit_score": average_fit_score,
+
+        "personalization_strong": personalization_strong,
+        "personalization_usable": personalization_usable,
+        "personalization_needs_review": personalization_needs_review,
+
+        "average_personalization_evidence_score":
+            average_personalization_score,
+
+        "draft_ready": draft_ready,
+        "draft_ready_with_review": draft_ready_with_review,
+        "manual_research_required": manual_research_required,
+
         "messages_generated": total,
         "messages_sent": 0,
+
         "human_review_required": total,
-        "duration_seconds": round(duration_seconds, 2),
+
+        "duration_seconds": round(
+            duration_seconds,
+            2,
+        ),
     }
 
 
@@ -246,56 +373,95 @@ def main():
             result = {
                 "company": company,
                 "domain": domain,
+
                 "research_status": research.get(
                     "research_status",
                     "unknown",
                 ),
+
                 "fetch_method": research.get(
                     "fetch_method",
                     "unknown",
                 ),
+
                 "pages_fetched": research.get(
                     "pages_fetched",
                     0,
                 ),
+
                 "total_signals": research.get(
                     "total_signals",
                     0,
                 ),
+
                 "signals": flatten_signals(
-                    research.get("signals", {})
+                    research.get(
+                        "signals",
+                        {},
+                    )
                 ),
+
                 "source_urls": research.get(
                     "source_urls",
                     [],
                 ),
+
                 "fit_score": qualification[
                     "fit_score"
                 ],
+
                 "fit_tier": qualification[
                     "fit_tier"
                 ],
+
                 "fit_reasons": qualification[
                     "fit_reasons"
                 ],
+
                 "use_case_hypothesis": personalization[
                     "use_case_hypothesis"
                 ],
+
                 "observed_signal": personalization[
                     "observed_signal"
                 ],
+
                 "pain_hypothesis": personalization[
                     "pain_hypothesis"
                 ],
+
+                "personalization_evidence": personalization[
+                    "personalization_evidence"
+                ],
+
+                "personalization_score": personalization[
+                    "personalization_score"
+                ],
+
+                "personalization_quality": personalization[
+                    "personalization_quality"
+                ],
+
+                "personalization_reasons": personalization[
+                    "personalization_reasons"
+                ],
+
+                "draft_status": personalization[
+                    "draft_status"
+                ],
+
                 "subject": personalization[
                     "subject"
                 ],
+
                 "email": personalization[
                     "email"
                 ],
+
                 "follow_up": personalization[
                     "follow_up"
                 ],
+
                 "human_review_required": True,
                 "send_status": "NOT_SENT",
             }
@@ -306,7 +472,9 @@ def main():
                 f"    status={result['research_status']} | "
                 f"method={result['fetch_method']} | "
                 f"signals={result['total_signals']} | "
-                f"fit={result['fit_score']} ({result['fit_tier']})"
+                f"fit={result['fit_score']} ({result['fit_tier']}) | "
+                f"personalization={result['personalization_score']} "
+                f"({result['personalization_quality']})"
             )
 
         except Exception as exc:
@@ -314,7 +482,6 @@ def main():
                 f"    ERROR: {type(exc).__name__}: {exc}"
             )
 
-            # One broken prospect must not stop the batch.
             results.append(
                 {
                     "company": company,
@@ -339,6 +506,13 @@ def main():
                     "pain_hypothesis": (
                         "No reliable hypothesis generated."
                     ),
+                    "personalization_evidence": [],
+                    "personalization_score": 0,
+                    "personalization_quality": "needs_review",
+                    "personalization_reasons": [
+                        "Pipeline failed before evidence-backed personalization could be generated."
+                    ],
+                    "draft_status": "MANUAL_RESEARCH_REQUIRED",
                     "subject": "",
                     "email": "",
                     "follow_up": "",
@@ -354,7 +528,6 @@ def main():
         duration,
     )
 
-    # Reviewer-friendly CSV.
     csv_rows = []
 
     for result in results:
@@ -368,6 +541,14 @@ def main():
             result["fit_reasons"]
         )
 
+        csv_row["personalization_reasons"] = " | ".join(
+            result["personalization_reasons"]
+        )
+
+        csv_row["personalization_evidence"] = flatten_evidence(
+            result["personalization_evidence"]
+        )
+
         csv_rows.append(csv_row)
 
     pd.DataFrame(csv_rows).to_csv(
@@ -375,7 +556,6 @@ def main():
         index=False,
     )
 
-    # Complete structured result.
     with open(
         output_dir / "results.json",
         "w",
@@ -388,7 +568,6 @@ def main():
             ensure_ascii=False,
         )
 
-    # Research evidence separately.
     with open(
         output_dir / "research.json",
         "w",
@@ -401,7 +580,6 @@ def main():
             ensure_ascii=False,
         )
 
-    # Human-readable produced piece.
     campaign = build_campaign_markdown(
         results
     )
@@ -413,7 +591,6 @@ def main():
     ) as file:
         file.write(campaign)
 
-    # Measurement for this specific run.
     with open(
         output_dir / "metrics.json",
         "w",
